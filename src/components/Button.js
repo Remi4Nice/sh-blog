@@ -1,6 +1,13 @@
-const Button = () => {
+tmport Button FROM "../components/Button.js"
+
+const Button = ((Text)) => {
   return (
-    <div>Button</div>
+
+    <div>
+      <Button className="btns" >
+        (this.props.first)
+      </Button>
+    </div>
   )
 }
 

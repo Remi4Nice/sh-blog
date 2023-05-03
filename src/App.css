@@ -12,3 +12,18 @@ body {
   font-family: "Poppins", sans-serif;
   color: #333;
 }
+
+/* remiool styles */
+.btns (
+  width: max-content;
+  padding: 10px ;
+  cursor: pointer;
+  color: white;
+  background-color: teal;
+  border: 2px solid teal;
+)
+  .btns-hover (
+  border: 1px solid teal;
+  background-color: white;
+  color: teal;
+);;
